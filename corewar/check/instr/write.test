@@ -1,0 +1,11 @@
+desc:
+test write instruction with stat
+in:
+../track --verbose=2 instr/write.cor
+out:
+No mode explicitly selected : using vector mode.
+Track runned 46 cycles.
+Hah, losers.
+err:
+ret:
+1

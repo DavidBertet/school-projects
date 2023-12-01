@@ -1,0 +1,8 @@
+desc:
+test of mov
+in:
+../track --verbose=3 instr/mov.cor
+out: /goinfre/acu/bin/track --verbose=3 instr/mov.cor
+err:
+ret:
+1

@@ -1,0 +1,8 @@
+desc:
+test of addi
+in:
+../track --verbose=3 instr/addi.cor
+out: /goinfre/acu/bin/track --verbose=3 instr/addi.cor
+err:
+ret:
+1

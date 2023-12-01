@@ -1,0 +1,8 @@
+desc:
+zork with small track
+in:
+../track -s 2000 --verbose=3 ship/zork1.cor
+out: /goinfre/acu/bin/track -s 2000 --verbose=3 ship/zork1.cor
+err:
+ret:
+0

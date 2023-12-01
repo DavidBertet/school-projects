@@ -1,0 +1,8 @@
+desc:
+str instruction larger than idxmode
+in:
+../track --verbose=3 instr/str1.cor
+out: /goinfre/acu/bin/track --verbose=3 instr/str1.cor
+err:
+ret:
+1

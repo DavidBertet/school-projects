@@ -1,0 +1,7 @@
+desc:
+addi
+in:
+../pit pit_test/addi.s
+out: /goinfre/acu/bin/pit pit_test/addi.s
+err: /goinfre/acu/bin/pit pit_test/addi.s
+ret: /goinfre/acu/bin/pit pit_test/addi.s

@@ -1,0 +1,8 @@
+desc:
+test of nop
+in:
+../track --verbose=2 instr/nop.cor
+out: /goinfre/acu/bin/track --verbose=2 instr/nop.cor
+err:
+ret:
+1

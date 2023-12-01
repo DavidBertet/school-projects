@@ -1,0 +1,8 @@
+desc:
+test of stb
+in:
+../track --verbose=3 instr/stb.cor
+out: /goinfre/acu/bin/track --verbose=3 instr/stb.cor
+err:
+ret:
+1

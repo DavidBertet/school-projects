@@ -1,0 +1,8 @@
+desc:
+test of not
+in:
+../track --verbose=3 instr/not.cor
+out: /goinfre/acu/bin/track --verbose=3 instr/not.cor
+err:
+ret:
+1

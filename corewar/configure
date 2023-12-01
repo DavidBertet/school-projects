@@ -1,0 +1,37 @@
+#!/bin/bash
+
+VERBOSE='off'
+CXXFLAGS='-Wall -Wextra -pedantic -Werror -pedantic-errors'
+CXXFLAGS_ALT='-DNDEBUG'
+
+PROJECT_DIR="`pwd`/src"
+if [ "$1" == "-d" ] || [ "$2" == "-d" ] || [ "$3" == "-d" ] ||
+    [ "$1" == "--with-debug" ] || [ "$2" == "--with-debug" ] || [ "$3" == "--with-debug" ]; then
+    CXXFLAGS="$CXXFLAGS -g -ggdb"
+    CXXFLAGS_ALT=''
+    echo "Debug activated"
+fi
+if [ "$1" == "-v" ] || [ "$2" == "-v" ] || [ "$3" == "-v" ]; then
+    VERBOSE='on'
+    echo "Verbose activated"
+fi
+if [ "$1" == "-bonus" ] || [ "$2" == "-bonus" ] || [ "$3" == "-bonus" ]; then
+    #CXXFLAGS="`sdl-config --libs` -I/usr/pkg/include/ -L/usr/pkg/lib/ -lGL -lglut -lSDL_image -D BONUS"
+    CXXFLAGS="-D BONUS"
+    echo "Bonus activated"
+    TRACK_SRCS="toto.c"
+fi
+if [ "$1" == "-bonus2" ] || [ "$2" == "-bonus2" ] || [ "$3" == "-bonus2" ]; then
+    #CXXFLAGS="`sdl-config --libs` -I/usr/pkg/include/ -L/usr/pkg/lib/ -lGL -lglut -lSDL_image -D BONUS"
+    CXXFLAGS="-D BONUS2"
+    echo "Bonus2 activated"
+    TRACK_SRCS="toto.c"
+fi
+
+rm -rf build
+mkdir build
+cd build
+
+echo
+
+cmake -D CMAKE_CXX_FLAGS:STRING="$CXXFLAGS $CXXFLAGS_ALT" -D CMAKE_VERBOSE_MAKEFILE="$VERBOSE" $PROJECT_DIR

@@ -1,0 +1,8 @@
+desc:
+test of check
+in:
+../track --verbose=2 instr/check.cor
+out: /goinfre/acu/bin/track --verbose=2 instr/check.cor
+err:
+ret:
+1
