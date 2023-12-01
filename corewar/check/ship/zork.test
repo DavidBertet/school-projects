@@ -1,0 +1,8 @@
+desc:
+zork test
+in:
+../track --verbose=3 ship/zork.cor
+out: /goinfre/acu/bin/track --verbose=3 ship/zork.cor
+err:
+ret:
+1

@@ -1,0 +1,8 @@
+desc:
+test of asr
+in:
+../track --verbose=2 instr/asr.cor
+out: /goinfre/acu/bin/track --verbose=2 instr/asr.cor
+err:
+ret:
+1

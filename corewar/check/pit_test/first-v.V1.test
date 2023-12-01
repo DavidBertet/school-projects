@@ -1,0 +1,7 @@
+desc:
+first-v.V1
+in:
+../pit pit_test/first-v.V1.s
+out: /goinfre/acu/bin/pit pit_test/first-v.V1.s
+err: /goinfre/acu/bin/pit pit_test/first-v.V1.s
+ret: /goinfre/acu/bin/pit pit_test/first-v.V1.s

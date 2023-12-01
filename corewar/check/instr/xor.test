@@ -1,0 +1,8 @@
+desc:
+test of xor
+in:
+../track --verbose=3 instr/xor.cor
+out: /goinfre/acu/bin/track --verbose=3 instr/xor.cor
+err:
+ret:
+1

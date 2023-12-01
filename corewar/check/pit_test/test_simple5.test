@@ -1,0 +1,7 @@
+desc:
+test_simple5
+in:
+../pit pit_test/test_simple5.s
+out: /goinfre/acu/bin/pit pit_test/test_simple5.s
+err: /goinfre/acu/bin/pit pit_test/test_simple5.s
+ret: /goinfre/acu/bin/pit pit_test/test_simple5.s

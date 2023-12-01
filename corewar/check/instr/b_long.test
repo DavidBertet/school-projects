@@ -1,0 +1,8 @@
+desc:
+test b long jump
+in:
+../track --verbose=3 instr/b_long.cor
+out: /goinfre/acu/bin/track --verbose=3 instr/b_long.cor
+err:
+ret:
+1

@@ -1,0 +1,20 @@
+#ifndef PLUS_HH_
+# define PLUS_HH_
+
+# include "ast.hh"
+
+class Plus : public Ast
+{
+  public:
+    virtual void	accept (Visitor& input);
+    Ast&		fg_get ();
+    Ast&		fd_get ();
+    void		fg_set (Ast& n);
+    void		fd_set (Ast& n);
+
+  private:
+    Ast*	fg_;
+    Ast*	fd_;
+};
+
+#endif // !PLUS_HH_

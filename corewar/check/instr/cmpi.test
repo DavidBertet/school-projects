@@ -1,0 +1,8 @@
+desc:
+test of cmpi
+in:
+../track --verbose=3 instr/cmpi.cor
+out: /goinfre/acu/bin/track --verbose=3 instr/cmpi.cor
+err:
+ret:
+1

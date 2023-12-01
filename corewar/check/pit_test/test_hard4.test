@@ -1,0 +1,7 @@
+desc:
+test_hard4
+in:
+../pit pit_test/test_hard4.s
+out: /goinfre/acu/bin/pit pit_test/test_hard4.s
+err: /goinfre/acu/bin/pit pit_test/test_hard4.s
+ret: /goinfre/acu/bin/pit pit_test/test_hard4.s

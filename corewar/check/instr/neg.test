@@ -1,0 +1,8 @@
+desc:
+test of neg
+in:
+../track --verbose=2 instr/neg.cor
+out: /goinfre/acu/bin/track --verbose=2 instr/neg.cor
+err:
+ret:
+1

@@ -1,0 +1,8 @@
+desc:
+test of bz
+in:
+../track --verbose=3 instr/bz.cor
+out: /goinfre/acu/bin/track --verbose=3 instr/bz.cor
+err:
+ret:
+1

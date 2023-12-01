@@ -1,0 +1,8 @@
+desc:
+test of swp
+in:
+../track --verbose=3 instr/swp.cor
+out: /goinfre/acu/bin/track --verbose=3 instr/swp.cor
+err:
+ret:
+1
