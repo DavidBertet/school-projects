@@ -1,0 +1,20 @@
+#! /bin/sh
+
+echo 'NAME_CHIEF=ralamb_e' > makefile.rules
+echo 'NAME_PROJECT=myFTPd' >> makefile.rules
+echo 'NAME_TARGET_DAEMON=myftpd' >> makefile.rules
+echo 'NAME_TARGET_CLIENT=myftp' >> makefile.rules
+echo 'NAME_COMP_TAR=z' >> makefile.rules
+echo 'NAME_EXT_TAR=gz' >> makefile.rules
+echo 'NAME_DIR_TAR=$(NAME_CHIEF)-$(NAME_PROJECT)' >> makefile.rules
+echo 'NAME_TAR=$(NAME_DIR_TAR).tar.$(NAME_EXT_TAR)' >> makefile.rules
+echo 'CC=gcc' >> makefile.rules
+echo 'CFLAGS=-Wall -W -Werror -ansi -pedantic' >> makefile.rules
+echo 'MAKE=gmake' >> makefile.rules
+echo 'MAINC_DAEMON=tools_str_myftp_myftpd.c tools_opt_myftp_myftpd.c daemon/main_myftpd.c daemon/log_myftpd.c daemon/user_myftpd.c daemon/pass_myftpd.c daemon/help_myftpd.c daemon/noop_myftpd.c daemon/cwd_myftpd.c daemon/pwd_myftpd.c daemon/syst_myftpd.c daemon/quit_myftpd.c daemon/type_myftpd.c daemon/port_myftpd.c daemon/list_myftpd.c daemon/retr_myftpd.c daemon/stor_myftpd.c daemon/pasv_myftpd.c daemon/dele_myftpd.c daemon/mkd_myftpd.c daemon/rmd_myftpd.c daemon/unknown_myftpd.c daemon/nyi_myftpd.c daemon/network_myftpd.c daemon/args_myftpd.c daemon/my_listdir.c' >> makefile.rules
+echo 'MAINC_CLIENT=tools_str_myftp_myftpd.c tools_opt_myftp_myftpd.c client/main_myftp.c client/tools1_myftp.c client/tools2_myftp.c client/auto_myftp.c client/cd_myftp.c client/cmd_myftp.c client/delete_myftp.c client/get_myftp.c client/help_myftp.c client/hostip_myftp.c client/init_user_myftp.c client/ls_myftp.c client/mkdir_myftp.c client/noop_myftp.c client/pass_myftp.c client/pasv_myftp.c client/port_myftp.c client/prompt_myftp.c client/put_myftp.c client/pwd_myftp.c client/quit_myftp.c client/retr_myftp.c client/rmdir_myftp.c client/socket_myftp.c client/stor_myftp.c client/system_myftp.c client/type_myftp.c client/user_myftp.c' >> makefile.rules
+echo 'MAINO_DAEMON=$(MAINC_DAEMON:.c=.o)' >> makefile.rules
+echo 'MAINO_CLIENT=$(MAINC_CLIENT:.c=.o)' >> makefile.rules
+echo 'HEADERS_DOC=src/tools_str_myftp_myftpd.h src/inc_myftp_myftpd.h src/daemon/const_myftpd.h src/daemon/struct_myftpd.h src/daemon/func_myftpd.h src/client/const_myftp.h src/client/struct_myftp.h src/client/func_myftp.h' >> makefile.rules
+echo 'CHECKC=main.c' >> makefile.rules
+echo 'CHECKO=$(CHECKC:.c=.o)' >> makefile.rules

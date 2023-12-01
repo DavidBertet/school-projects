@@ -1,0 +1,53 @@
+| ----------------------- |
+| ######        # #     # |
+| #     #       # #     # |
+| #     #       # #     # |
+| ######        # #     # |
+| #   #   #     #  #   #  |
+| #    #  #     #   # #   |
+| #     #  #####     #    |
+| ----------------------- |
+
+* What's that ?
+
+It looks like a shoot'em up.
+
+* It works well ?
+
+I don't have to answer this kind of questions.
+But I think so.
+
+* How does it work ?
+
+Type `./configure && gmake all`.
+Enjoy.
+
+* Cool. And ?
+
+Once you do the `./configure`, you can play wih the pretty Makefile.
+Since you're still here, the game works with `gmake check`.
+
+* So what ?
+
+Left Control to shoot.
+Left Alt to use the bonii.
+The arrows to move.
+Espace to quit ; Return to retry a level.
+11 weapons, 4 bonii, 15 different ships !
+Cheats : F12.
+
+* Thanks to ?
+
+All the team ! (See the AUTHORS).
+
+* Any greets ?
+
+The ACUs for the orange juice !
+
+* That's sweet. And ?
+
+`gmake doc` to create a nice pdf file !
+
+* Finally ?
+
+The lie is a cake.

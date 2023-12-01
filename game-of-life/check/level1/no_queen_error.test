@@ -1,0 +1,8 @@
+desc:
+Test no queen error
+in:
+../jdv maps/map_error_no_queen 1
+out: /goinfre/acu/bin/jdv maps/map_error_no_queen 1
+err: ../jdv maps/map_error_no_queen 1
+ret:
+1

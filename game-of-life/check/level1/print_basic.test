@@ -1,0 +1,7 @@
+desc:
+Print basic map
+in:
+../jdv maps/map 1
+out: /goinfre/acu/bin/jdv maps/map 1
+err: /goinfre/acu/bin/jdv maps/map 1
+ret: /goinfre/acu/bin/jdv maps/map 1

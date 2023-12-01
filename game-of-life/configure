@@ -1,0 +1,24 @@
+#!/bin/bash
+
+VERBOSE='off'
+CXXFLAGS='-Wall -Wextra -std=c++98 -pedantic -Werror -pedantic-errors'
+CXXFLAGS_ALT='-DNDEBUG'
+
+PROJECT_DIR="`pwd`/src"
+if [ "$1" == "-d" ] || [ "$2" == "-d" ] || [ "$1" == "--with-debug" ] || [ "$2" == "--with-debug" ] ; then
+    CXXFLAGS="$CXXFLAGS -g -ggdb"
+    CXXFLAGS_ALT=''
+    echo "Debug activate"
+fi
+if [ "$1" == "-v" ] || [ "$2" == "-v" ] ; then
+    VERBOSE='on'
+    echo "Verbose activate"
+fi
+
+rm -rf build
+mkdir build
+cd build
+
+echo
+
+cmake -D CMAKE_CXX_FLAGS:STRING="$CXXFLAGS $CXXFLAGS_ALT" -D CMAKE_VERBOSE_MAKEFILE="$VERBOSE" $PROJECT_DIR

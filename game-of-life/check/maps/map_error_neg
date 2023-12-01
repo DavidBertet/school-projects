@@ -1,0 +1,17 @@
+seed 10
+map 15 10
+
+team
+queen 1 2
+food_worker 1 3
+end
+
+obstacle
+obstacle 5 5
+end
+
+resource
+food 7 10
+food 8 12
+food 13 2
+end

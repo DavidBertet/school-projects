@@ -1,0 +1,24 @@
+       __   _______  ____    ____
+      |  | |       \ \   \  /   /
+      |  | |  .--.  | \   \/   /
+.--.  |  | |  |  |  |  \      /
+|  `--'  | |  '--'  |   \    /
+ \______/  |_______/     \__/  by bertet_d
+
+The objective of this software is to replicate a game of life
+
+
+To compile it you can use:
+
+./configure && make
+
+all		compile the project
+clean		clean useless file
+distclean	clean and delete the library and object file
+doc		construct documents files
+dist		make the archive
+check		launch a test software
+jdv		compile the binary of jdv
+
+
+Example : ./jdv -p check/maps/map2 10000

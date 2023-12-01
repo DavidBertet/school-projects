@@ -1,0 +1,28 @@
+seed 10
+map 8 10
+
+team
+queen 1 1
+food_worker 2 1
+food_worker 3 1
+fighter 6 1
+food_worker 4 1
+end
+
+team
+queen 1 9
+fighter 8 1
+food_worker 2 9
+end
+
+obstacle
+obstacle 5 5
+end
+
+resource
+food 7 10
+food 8 8
+water 3 7
+water 6 5
+food 3 2
+end

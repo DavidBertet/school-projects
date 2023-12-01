@@ -1,0 +1,8 @@
+desc:
+Test size of map null error
+in:
+../jdv maps/map_error_size_null 1
+out: /goinfre/acu/bin/jdv maps/map_error_size_null 1
+err: ../jdv maps/map_error_size_null 1
+ret:
+1

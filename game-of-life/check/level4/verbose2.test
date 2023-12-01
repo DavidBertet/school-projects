@@ -1,0 +1,7 @@
+desc:
+Test Verbose level 2 with -vv
+in:
+../jdv -vv maps/map_hard 100
+out: /goinfre/acu/bin/jdv -vv maps/map_hard 100
+err: /goinfre/acu/bin/jdv -vv maps/map_hard 100
+ret: /goinfre/acu/bin/jdv -vv maps/map_hard 100

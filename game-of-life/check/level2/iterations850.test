@@ -1,0 +1,7 @@
+desc:
+Test Iterations 850
+in:
+../jdv -vvv maps/map2 850
+out: /goinfre/acu/bin/jdv -vvv maps/map2 850
+err: /goinfre/acu/bin/jdv -vvv maps/map2 850
+ret: /goinfre/acu/bin/jdv -vvv maps/map2 850
