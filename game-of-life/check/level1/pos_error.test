@@ -1,0 +1,8 @@
+desc:
+Test pos error
+in:
+../jdv maps/map_error_pos 1
+out: /goinfre/acu/bin/jdv maps/map_error_pos 1
+err: ../jdv maps/map_error_pos 1
+ret:
+1

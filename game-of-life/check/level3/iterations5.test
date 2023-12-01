@@ -1,0 +1,7 @@
+desc:
+Test Iterations 5
+in:
+../jdv -vvv maps/map_fighter 5
+out: /goinfre/acu/bin/jdv -vvv maps/map_fighter 5
+err: /goinfre/acu/bin/jdv -vvv maps/map_fighter 5
+ret: /goinfre/acu/bin/jdv -vvv maps/map_fighter 5

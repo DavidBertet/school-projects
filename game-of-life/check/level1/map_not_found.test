@@ -1,0 +1,8 @@
+desc:
+Test map not found error
+in:
+../jdv aaaaa 1
+out: /goinfre/acu/bin/jdv aaaaa 1
+err: ../jdv aaaaa 1
+ret:
+1

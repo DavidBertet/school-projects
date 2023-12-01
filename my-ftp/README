@@ -1,0 +1,45 @@
+| ------------------------------------------- |
+|              ####### ####### ######         |
+| #    # #   # #          #    #     # #####  |
+| ##  ##  # #  #          #    #     # #    # |
+| # ## #   #   #####      #    ######  #    # |
+| #    #   #   #          #    #       #    # |
+| #    #   #   #          #    #       #    # |
+| #    #   #   #          #    #       #####  |
+| ------------------------------------------- |
+
+* What's that ?
+
+It looks like a FTP server and its client.
+
+* It works well ?
+
+I don't have to answer this kind of questions.
+But I think so.
+
+* How does it work ?
+
+Type `./configure && gmake all`.
+Enjoy.
+
+* Cool. And ?
+
+Once you do the `./configure`, you can play wih the pretty Makefile.
+Since you're still here, the test works with `gmake check`.
+
+* Thanks to ?
+
+All the team ! (See the AUTHORS).
+
+* Any greets ?
+
+Bique_a for his ftp server ! Thanks !
+And detour_o for his help in debugging the client.
+
+* That's sweet. And ?
+
+`gmake doc` to create a nice pdf file !
+
+* Finally ?
+
+The lie is a cake.

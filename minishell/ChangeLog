@@ -1,0 +1,28 @@
+Changelog of Minishell
+
+13/10/08 by bertet_d
+	 level 0 done
+	 
+14/10/08 by bertet_d
+	 &&  ||  ;
+	 builtin echo, cd
+
+15/10/08 by bertet_d
+	 test software
+
+16/10/08 by bertet_d
+	 pipe
+	 &
+	 level 1 done
+
+17/10/08 by bertet_d
+	 lot of test
+	 redirection
+
+18/10/08 by bertet_d
+	 builtin pwd, exit
+	 environnement
+
+19/10/08 by bertet_d
+	 level 3 done
+	 lot of test

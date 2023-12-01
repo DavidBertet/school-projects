@@ -1,0 +1,17 @@
+MINISHELL   by bertet_d
+
+The objective of this library is to replicate a shell like bash
+
+
+
+To compile it you can use:
+
+./configure && gmake
+
+all		compile the project
+clean		clean useless file
+distclean	clean and delete the library and object file
+doc		construct documents files
+dist		make the archive
+check		launch a test software
+minishell	compile the binary of minishell

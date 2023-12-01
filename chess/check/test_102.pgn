@@ -1,0 +1,12 @@
+[Event "?"]
+[Site "Philadelphia"]
+[Date "1806.??.??"]
+[Round "?"]
+[White "Smith,J"]
+[Black "Derrickson,G"]
+[Result "0-1"]
+[ECO "C55"]
+
+1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.O-O Bc5 5.d3 d6 6.Bg5 Bg4 7.h3 h5 8.hxg4 
+hxg4 9.Nh2 g3 10.Nf3 Ng4 11.Bxd8 Bxf2+ 12.Rxf2 gxf2+ 13.Kf1 Rh1+ 14.Ke2 
+Rxd1 15.Nfd2 Nd4+ 16.Kxd1 Ne3+ 17.Kc1 Ne2# 0-1

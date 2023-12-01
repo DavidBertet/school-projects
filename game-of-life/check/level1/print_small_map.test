@@ -1,0 +1,7 @@
+desc:
+Print small map
+in:
+../jdv maps/map_small 1
+out: /goinfre/acu/bin/jdv maps/map_small 1
+err: /goinfre/acu/bin/jdv maps/map_small 1
+ret: /goinfre/acu/bin/jdv maps/map_small 1

@@ -1,0 +1,8 @@
+desc:
+Test team error
+in:
+../jdv maps/map_error_team 1
+out: /goinfre/acu/bin/jdv maps/map_error_team 1
+err: ../jdv maps/map_error_team 1
+ret:
+1

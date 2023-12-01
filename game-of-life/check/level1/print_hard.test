@@ -1,0 +1,7 @@
+desc:
+Print hard map
+in:
+../jdv maps/map_hard 1
+out: /goinfre/acu/bin/jdv maps/map_hard 1
+err: /goinfre/acu/bin/jdv maps/map_hard 1
+ret: /goinfre/acu/bin/jdv maps/map_hard 1

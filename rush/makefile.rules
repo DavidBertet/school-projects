@@ -1,0 +1,13 @@
+NAME_CHIEF=gallet_c
+NAME_PROJECT=rush
+NAME_TARGET=rjv
+NAME_COMP_TAR=j
+NAME_EXT_TAR=bz2
+NAME_DIR_TAR=$(NAME_CHIEF)-$(NAME_PROJECT)
+NAME_TAR=$(NAME_DIR_TAR).tar.$(NAME_EXT_TAR)
+CC=gcc
+CFLAGS=-Wall -W -Werror -ansi -pedantic -std=c99
+MAKE=make
+MAINC=main.c menu.c mainloop.c draw.c font.c init_struct.c add_bullet.c add_ship.c delete_struct.c physik_engin.c textures.c move.c parser.c gun.c hud.c background.c keyboard.c
+MAINO=$(MAINC:.c=.o)
+HEADERS_DOC=src/inc.h src/struct.h src/const.h src/func.h

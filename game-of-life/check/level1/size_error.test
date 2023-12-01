@@ -1,0 +1,7 @@
+desc:
+Print large map
+in:
+../jdv maps/map_large 10
+out: /goinfre/acu/bin/jdv maps/map_large 10
+err: ../jdv maps/map_large 10
+ret: /goinfre/acu/bin/jdv maps/map_large 10

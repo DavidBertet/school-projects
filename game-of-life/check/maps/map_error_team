@@ -1,0 +1,12 @@
+seed 10
+map 20 15
+
+obstacle
+obstacle 5 5
+end
+
+resource
+food 7 10
+food 8 12
+food 13 2
+end

@@ -1,0 +1,8 @@
+desc:
+Test neg error
+in:
+../jdv maps/map_error_neg 1
+out: /goinfre/acu/bin/jdv maps/map_error_neg 1
+err: ../jdv maps/map_error_neg 1
+ret:
+1
